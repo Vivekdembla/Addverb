@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#350080FF"
+    android:layout_marginVertical="1dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/flag_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        android:src="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/country_name"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/flag_image"
+        android:text="India"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/flag_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Delhi"
+        app:layout_constraintLeft_toLeftOf="@id/country_name"
+        app:layout_constraintTop_toBottomOf="@id/country_name"
+        android:textColor="@color/black"
+        android:id="@+id/capital"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/country_name"
+        app:layout_constraintTop_toBottomOf="@id/capital"
+        android:textColor="@color/black"
+        android:text="125000000"
+        android:id="@+id/population"/>
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/country_name"
+        android:text="Borders"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/black"
+        android:gravity="right"
+        android:id="@+id/borders"/>
+
+    <TextView
+        android:layout_width="170dp"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:id="@+id/languages"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="5dp"
+        app:layout_constraintTop_toBottomOf="@id/borders"
+        android:text="Hindi"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

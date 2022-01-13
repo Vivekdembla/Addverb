@@ -1,0 +1,36 @@
+package com.security.addverb.Model
+
+data class Languages(
+    val zho: String = "",
+    val eng:String = "",
+    val ara:String = "",
+    val fra:String = "",
+    val msa:String = "",
+    val mia:String = "",
+    val fas:String = "",
+    val lao:String ="",
+    val mya:String = "",
+    val nep:String = "",
+    val hye:String = "",
+    val dzo:String = "",
+    val div:String = "",
+    val rus:String = "",
+    val jpn:String = "",
+    val por:String = "",
+    val aze:String = "",
+    val khm:String = "",
+    val kor:String = "",
+    val kir:String = "",
+    val ind:String = "",
+    val prs:String = "",
+    val kat:String = "",
+    val mon:String = "",
+    val ben:String = "",
+    val sin:String = "",
+    val tam:String = "",
+    val tha:String = "",
+    val kaz:String = "",
+    val tur:String = "",
+    val uzb:String = ""
+
+)
